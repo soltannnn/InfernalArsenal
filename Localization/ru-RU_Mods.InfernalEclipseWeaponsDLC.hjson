@@ -893,6 +893,15 @@ Items: {
 			This effect must recharge for 15 seconds after protecting you
 			''' */
 	}
+
+	VeryVeryStrangeSkull: {
+		// DisplayName: Very Very Strange Skull
+		/* Tooltip:
+			'''
+			Summons a more ghastly skull to shoot laser beams at enemies, which cause damage over time
+			"Double D Gaster in Deltarune, built it all in an emtpy room"
+			''' */
+	}
 }
 
 ItemTooltip: {
@@ -1133,6 +1142,8 @@ Projectiles: {
 	// HolyFlailCorePro.DisplayName: Holy Flail Core
 	// HolyFlailFire.DisplayName: Holy Fire
 	// TerraOrb.DisplayName: Terra Orb
+	// VeryVeryStrangeSkullPro.DisplayName: Very Very Strange Skull Pro
+	// VeryVeryStrangeSkullShotPro.DisplayName: Very Very Strange Skull Shot Pro
 }
 
 Buffs: {

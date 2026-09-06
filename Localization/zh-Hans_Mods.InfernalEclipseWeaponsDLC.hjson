@@ -933,6 +933,15 @@ Items: {
 			该效果在触发保护后需要15秒重新充能
 			'''
 	}
+
+	VeryVeryStrangeSkull: {
+		// DisplayName: Very Very Strange Skull
+		/* Tooltip:
+			'''
+			Summons a more ghastly skull to shoot laser beams at enemies, which cause damage over time
+			"Double D Gaster in Deltarune, built it all in an emtpy room"
+			''' */
+	}
 }
 
 ItemTooltip: {
@@ -1173,6 +1182,8 @@ Projectiles: {
 	HolyFlailCorePro.DisplayName: 神圣连枷核心
 	HolyFlailFire.DisplayName: 亵渎圣火
 	TerraOrb.DisplayName: 泰拉法球
+	// VeryVeryStrangeSkullPro.DisplayName: Very Very Strange Skull Pro
+	// VeryVeryStrangeSkullShotPro.DisplayName: Very Very Strange Skull Shot Pro
 }
 
 Buffs: {

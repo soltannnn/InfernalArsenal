@@ -72,7 +72,7 @@ namespace InfernalEclipseWeaponsDLC.Content.Items.Weapons.Bard
 
             // Third purple beam: same logic, just randomized start/target angle
             // Editable angles in degrees
-            float randomStartDegrees = 30f;  // ± from aim
+            float randomStartDegrees = 30f;  // ï¿½ from aim
             float maxSweepDegrees = 45f;     // maximum sweep toward mouse
 
             // Convert start to radians
@@ -84,7 +84,7 @@ namespace InfernalEclipseWeaponsDLC.Content.Items.Weapons.Bard
             // Clamp the target so it moves toward the mouse
             float deltaAngle = MathHelper.WrapAngle(directionToMouse - randomStart);
 
-            // Limit deltaAngle to ±maxSweepDegrees, but keep its sign (toward the mouse)
+            // Limit deltaAngle to ï¿½maxSweepDegrees, but keep its sign (toward the mouse)
             deltaAngle = MathHelper.Clamp(deltaAngle, -MathHelper.ToRadians(maxSweepDegrees), MathHelper.ToRadians(maxSweepDegrees));
 
             // The purple beam target
